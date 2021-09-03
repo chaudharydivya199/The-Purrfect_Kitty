@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Css styling-->
+    <link rel="stylesheet" href="../stylesheet/style.css">
+
+    <title>Kitty | Categories</title>
+    <link rel="shortcut icon" href="../icons/CatLogo.png" type="image/x-icon">
+    
+</head>
+<body>
+    
+    
+       <!--Categories Head-->
+       <div class="pages_header">
+       <div>
+        <h1 class="head"><a href="../index.html"><img class="page_logo" src="../icons/CatLogo.png" width="50" height="50"alt=""></a>Categories</h1> 
+        </div>                        
+        
+        
+        <!-- categories list for searching images-->
+        <div class="categories_list">                               
+            <button id="5" class="catg_btn" onclick="get_catg_data(this.id)">Boxes</button>
+            <button id="15" class="catg_btn" onclick="get_catg_data(this.id)">Clothes</button>
+            <button id="4" class="catg_btn" onclick="get_catg_data(this.id)">Sunglasses</button>
+            <button id="1" class="catg_btn" onclick="get_catg_data(this.id)">Hats</button>
+            <button id="2" class="catg_btn" onclick="get_catg_data(this.id)">Space</button>
+            <button id="7" class="catg_btn" onclick="get_catg_data(this.id)">Ties</button>
+                
+        </div>
+        </div>
+ 
+
+        <!--Section for adding images-->
+        <section class="container_catg_imgs">
+           <div id="one" class="catg_images">
+           </div>
+           <div id="two" class="catg_images">
+           </div> 
+           <div id="three" class="catg_images">
+           </div>
+           <div id="four" class="catg_images">
+           </div>
+           <div id="five" class="catg_images">
+           </div>
+           <div id="six" class="catg_images">
+           </div>
+
+           </section>
+
+
+
+        
+        <!--Button for adding More Images-->
+        <button id="more_catg_imgs" onclick="add_more_catg_imgs()">More Images</button>
+        
+
+        <!-- script-->
+        <script src=../script/script3.js></script>
+</body>
+</html>

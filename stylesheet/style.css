@@ -1,0 +1,823 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.nav-header
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.links
+{
+    height:0;
+    overflow:hidden;
+}
+  
+li
+{
+    list-style:none;
+}
+
+.nav-link
+{
+    text-decoration:none;
+    color:white;
+    font-size:21px;
+    display:block;
+    padding:22px;
+    text-align:center;
+    font-family:'Alumni Sans';
+    letter-spacing:2px;
+}
+.nav-toggle
+{
+    border:none;
+    background-color:transparent;
+    color:white;
+    font-size:30px;
+}
+
+.nav
+{
+    background-color:black;
+}
+
+.navbar
+{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.title
+{
+    color:white;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing:2px;
+    text-shadow:2px 2px 2px slategrey;
+}
+
+.show-links
+{
+    height:15rem;
+}
+
+
+.home_img
+{
+    height:450px;
+    width:100%;
+}
+
+.kitty_home
+{
+    background-color:#000024;
+    border-radius:15px;
+    box-shadow:5px 5px gray;
+    padding:5px;
+}
+
+.home_text
+{
+    color:white;
+    letter-spacing:8px;
+    text-shadow:2px 2px 2px gray;
+}
+
+.card1,.card2,.card3,.card4
+{
+    height:350px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:2px solid black;
+    margin:20px;
+    border-radius:20px;
+    box-shadow:5px 5px black;
+    cursor:pointer;
+    
+}
+.card1
+{
+    background-image:url(../images/Gallery_CatImg.jpg);
+}
+
+.card2 
+{
+    background-image:url(../images/Gif_CatImg.jpg);
+}
+
+.card3
+{
+    background-image:url(../images/Breed_CatImage.jpeg);
+}
+.card4
+{
+    background-image:url(../images/Catg_CatImage.jpg);
+}
+.card_container 
+{
+    display:grid;
+}
+
+.container2
+{
+    background-color:whitesmoke;
+}
+.card_btn
+{
+    border:none;
+    padding:11px;
+    background-color:chocolate;
+    border-radius:30px;
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor:pointer;
+    
+}
+
+h2
+{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    letter-spacing:3px;
+    text-shadow:2px 2px 2px gray;
+}
+
+hr
+{
+    height:5px;
+    background-color:black;
+}
+
+h1
+{
+    font-size:40px;
+    text-align:center;
+    letter-spacing:2px;
+    font-weight:bolder;
+    text-shadow :2px 2px 2px gray;
+}
+.get_fact
+{
+    display:flex;
+    justify-content:center;
+}
+
+#fact_text
+{
+    background-color:#00001f;
+    padding:50px 50px;
+    color:white;
+    border-radius:10px;
+    font-size:30px;
+    letter-spacing:1px;
+    text-shadow:2px 1px 1px black;
+    box-shadow:5px 5px  #282828;
+}
+#fact_btn
+{
+    color:white;
+    font-weight:bold;
+    padding:13px;
+    background-color:darkgreen;
+    border-style:none;
+    border-radius:3px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+#fact_btn:hover
+{
+    background-color:green;
+    box-shadow:2px 2px gray;
+}
+.footer
+{
+    padding:1%;
+    background-color:#000014;
+}
+.social_links
+{
+    display:flex;
+    justify-content:center;
+}
+.soc_link
+{
+    height:25px;
+    width:25px;
+    margin:5px;
+}
+
+button
+{
+    cursor:pointer;
+}
+
+.pages_header
+{
+    position:sticky;
+    width:100%;
+    top:0;
+}
+.head
+{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.page_logo
+{
+    position:fixed;
+    left:10px;
+}
+
+.gallery_container
+{
+    background-color:black;
+    padding:15px;
+}
+#gallery_images
+{
+    display:grid;
+    padding:15px;
+}
+#gallery_images img
+{
+    height:300px;
+    width:100%;
+    padding:4px;
+}
+
+
+#gallery_btn
+{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    background-color:green;
+    border:none;
+    padding:6px 20px 6px 20px;
+    position:relative;
+    left:40%;
+    border-radius:2px;
+    
+}
+
+#gallery_btn:hover
+{
+    background-color:blue;
+}
+ 
+
+
+#gif_container
+{
+    background-color:#303030;
+    display:grid;   
+    grid-template-columns:auto;
+}
+#gif_img
+{
+    width:100%;
+    box-shadow:5px 5px black;
+    border-radius:25px;
+}
+
+
+.gif_btn
+{
+    display:grid;
+    grid-template-columns:auto auto;
+}
+#gif_prev_btn,#gif_next_btn
+{
+    border-style:none;
+    padding:12px;
+    margin-left:15px;
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    border-radius:5px;
+}
+#gif_prev_btn
+{
+    background-color:red;
+}
+#gif_prev_btn:hover
+{
+    box-shadow:2px 2px gray;
+    background-color:tomato;
+    border:2px red;
+}
+#gif_next_btn
+{
+   background-color:darkgreen;
+}
+#gif_next_btn:hover
+{
+   box-shadow:2px 2px gray;
+   background-color:green;
+   border:2px darkgreen;
+}
+  
+
+.breeds_list
+{
+    display:grid;
+}
+.breed_btn
+{
+    text-align:center;
+    background-color:white;
+    color:black;;
+    font-size:16px;
+    font-weight:bold;
+    border-style:none;
+    border-radius:6px;
+    box-shadow:2px 2px gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:5px;
+    padding:8px;
+    
+}
+ 
+ .breed_btn:focus
+{
+     background-color:midnightblue;
+     color:white;
+}
+#breed_imgs
+{
+    display:grid;
+    grid-template-columns:auto;
+}
+#breed_imgs img
+{
+    width:100%;
+    height:350px;
+    margin-bottom:10px;
+}
+.breed_details
+{
+    display:none;
+}
+
+
+.container_catg_imgs
+{
+    background-color:black;
+}
+.categories_list
+{
+    display:grid;
+    background-color:white;
+    position:relative;
+    top:0px;
+}
+
+
+.catg_btn
+{
+    background-color:midnightblue;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+    padding:12px 6px;
+    border-style:none;
+    border-radius:10px;
+}
+
+.catg_btn:hover
+{ 
+    background-color: #00c; 
+}
+
+
+.catg_imgs 
+{
+    display:grid;
+}
+.catg_images img
+{
+    padding:5px;
+    width:100%;
+}
+#more_catg_imgs
+{
+    position:relative;
+    left:40%;
+    background-color:darkgreen;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    border-style:none;
+    border-radius:4px;
+    box-shadow:2px 2px gray;
+    padding:15px 20px;
+    margin:20px;
+}
+#more_catg_imgs:hover
+{
+    background-color:forestgreen;
+}
+button:visited
+{
+border-style:none;
+}
+
+
+
+
+@media screen and (max-width:850px)
+{
+
+.home_text
+{
+    padding:2%;
+}
+.home_text1
+{
+    font-size:30px;
+    text-align:center;
+    padding:4px;
+}
+.home_text2
+{
+    text-align:center;
+    letter-spacing:3px;
+    font-size:25px;
+    padding:20px;
+}
+.container2
+{
+    padding:5px;
+}
+.hor_line
+{
+    padding: 20px 5px 10px 5px;
+}
+.fact_container
+{
+    background-color:gray;
+    padding:2%;
+}
+
+.fact
+{
+    padding: 20px;
+}
+.soc_link
+{
+  margin-left:5px;
+  
+}
+
+.breeds_list
+{
+    margin-top:12px;
+    grid-template-columns:auto auto auto;
+}
+
+.breed_btn
+{
+    margin:5px;
+    padding:5px;
+    font-weight:bold;
+    border-style:none;
+}
+.breeds_home
+{
+    width:100%;
+    background-color:black;
+    position:absolute;
+    padding:20px;
+    margin-top:15px;
+}
+.breed_text
+{
+    padding:15px;
+    color:white;
+    font-size:20px;
+    text-shadow:2px 2px 2px gray;
+}
+.oggy_img
+{
+    width:"110px";
+     height:"110px";
+     padding-left:45px;
+     padding-top:20px;
+}
+.breed_details
+{
+    padding:10px;
+}
+#breed_imgs
+{
+    height:350px;
+    width:100%;
+    box-shadow :5px 4px 5px 4px black;
+}
+#desc
+{
+    padding:20px;
+    background-color:#00001f;
+    color:white;
+    font-size:18px;
+}
+
+#features
+{
+    padding:10px;
+    font-size:20px;
+    font-weight:900; 
+    display:grid;
+    grid-template-columns:auto auto; 
+    background-color:white;
+}
+.feat
+{
+    padding:6px;
+}
+.feat_val
+{
+
+    color:darkblue;
+    font-weight:bold;
+    font-size:18px;
+}
+.prog_bar
+{
+text-align:center;
+font-size:11px;
+ background-color:darkgreen;
+ color:white;
+ margin:8px;
+}
+#gif_container
+{
+    padding :20px 15px;
+}
+
+#gif_img
+{
+    height:500px;
+}
+.gif_btn
+{
+    padding:25px;;
+}
+
+.catg_images
+{
+    grid-template-columns:auto;
+}
+
+.categories_list
+{
+    grid-template-columns:auto auto;
+}
+
+.catg_images img
+{
+    height:470px;
+}
+.catg_btn
+{
+    margin:5px;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width:850px)
+{
+
+.nav-toggle
+{
+    display:none;
+}
+
+.navbar
+{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   margin-right:30px;
+   margin-left:10px;
+}
+
+li
+{
+    margin-right:50px;
+}
+   
+.links
+{
+   display:flex;
+   justify-content:space-between;
+   height:auto;
+}
+
+.nav-link
+{
+    padding:0;
+}
+
+.title
+{
+    font-size:30px;
+    margin-left:25px;
+    letter-spacing:4px;
+ }
+
+.card_container
+{
+    grid-template-columns:auto auto ;
+}
+  
+ 
+.container1
+{
+    padding:5% 8%;
+}
+
+.kitty_home
+{
+    display:grid;
+    grid-template-columns:30% 70%;
+}
+.home_text
+{
+    padding:10%;
+}
+.home_text1
+{
+    font-size:35px;
+}
+.home_text2
+{
+    letter-spacing:3px;
+    font-size:25px;
+    padding:50px;
+}
+
+.container2
+{
+    padding:3% 5% 3% 5%;
+}
+
+.hor_line
+{
+    padding: 0px 80px 30px 30px;
+}
+
+
+.fact_container
+{
+    background-color:whitesmoke;
+    padding:4%;
+}
+
+.fact
+{
+    padding: 3% 20%;
+}
+
+.breed_text
+{
+    padding:25px;
+    color:white;
+    font-size:30px;
+    line-height:2.5rem;
+    text-shadow :2px 1px 2px gray;
+}
+
+.soc_link
+{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.breeds_list
+{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto auto auto ;
+    padding:20px;
+}
+
+.breeds_home
+{
+    display:grid;
+    grid-template-columns:auto auto;
+    width:60%;
+    background-color:black;
+    position:absolute;
+    left:20%;
+    padding:65px;
+    margin-top:20px;
+}
+.oggy_img
+{
+    width:"100px";
+    height:"100px"
+}
+
+.breed_details
+{
+    grid-template-columns:40% 60%;
+    padding:35px;
+    background-color:lightgray;
+}
+#breed_imgs
+{
+    width:100%;
+    height:560px;
+    box-shadow :5px 4px 5px 4px black;
+}
+
+#desc
+{
+    padding:40px;
+    background-color:#00001f;
+    color:white;
+    font-size:20px;
+}
+#features
+{
+      padding:15px;
+    font-size:20px;
+    font-weight:900; 
+     display:grid;
+    grid-template-columns:auto auto; 
+}
+.feat
+{
+    padding:6px;
+}
+.feat_val
+{
+
+    color:darkblue;
+    font-weight:bold;
+    font-size:20px;
+}
+.prog_bar
+{
+text-align:center;
+font-size:13px;
+ background-color:darkgreen;
+ color:white;
+ margin:8px;
+}
+
+
+#gallery_images
+{
+    grid-template-columns:auto auto auto auto;
+}
+#gif_container
+{
+    padding:35px 300px;
+}
+#gif_img
+{
+    height:430px;
+}
+.gif_btn
+{
+    padding: 26px 120px;
+
+}
+.catg_images
+{
+    grid-template-columns:auto auto auto auto;
+}
+
+.categories_list
+{
+    grid-template-columns:auto auto auto auto auto auto  ;
+}
+
+.catg_images img
+{
+    height:300px;
+}
+.catg_btn
+{
+    margin:10px;
+}
+
+}
+
+

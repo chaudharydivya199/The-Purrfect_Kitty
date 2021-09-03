@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="../stylesheet/style.css">
+
+    <title>Kitty | Breeds</title>
+    <link rel="shortcut icon" href="../icons/CatLogo.png" type="image/x-icon">
+    
+</head>
+<body>
+
+       
+            <!--Breeds Head-->
+             <div class="pages_header">
+               <div>
+                 <h1 class="head"><a href="../index.html"><img class="page_logo" src="../icons/CatLogo.png" width="45" height="45"alt=""></a>Breeds</h1> 
+               </div>
+             </div>
+
+
+             
+             <!--List of Breeds-->
+            <div class="breeds_list">
+              <button id="abys" class="breed_btn" onclick="get_breed(this.id)">Abyssinian</button>
+              <button id="aege" class="breed_btn" onclick="get_breed(this.id)">Aegean</button>
+              <button id="bali" class="breed_btn" onclick="get_breed(this.id)">Balinese</button>
+              <button id="beng" class="breed_btn" onclick="get_breed(this.id)">Bengal</button>
+              <button id="birm" class="breed_btn" onclick="get_breed(this.id)">Birman</button>
+              <button id="bomb" class="breed_btn" onclick="get_breed(this.id)">Bombay</button>
+              <button id="chee" class="breed_btn" onclick="get_breed(this.id)">Cheetoh</button>
+              <button id="cymr" class="breed_btn" onclick="get_breed(this.id)">Cymric</button>
+              <button id="cypr" class="breed_btn" onclick="get_breed(this.id)">Cyprus</button>
+              <button id="dons" class="breed_btn" onclick="get_breed(this.id)">Donskoy</button>
+              <button id="hima" class="breed_btn" onclick="get_breed(this.id)">Himalayan</button>
+              <button id="java" class="breed_btn" onclick="get_breed(this.id)">Javanese</button>
+              <button id="kora" class="breed_btn" onclick="get_breed(this.id)">Korat</button>
+              <button id="manx" class="breed_btn" onclick="get_breed(this.id)">Manx</button>
+              <button id="munc" class="breed_btn" onclick="get_breed(this.id)">Munchkin</button>
+              <button id="orie" class="breed_btn" onclick="get_breed(this.id)">Oriental</button>
+              <button id="pers" class="breed_btn" onclick="get_breed(this.id)">Persian</button>
+              <button id="siam" class="breed_btn" onclick="get_breed(this.id)">Siamese</button>
+              <button id="sibe" class="breed_btn" onclick="get_breed(this.id)">Siberian</button>
+              <button id="singa"class="breed_btn" onclick="get_breed(this.id)">Singapura</button>
+              <button id="tonk" class="breed_btn" onclick="get_breed(this.id)">Tonkinese</button>
+            </div>
+
+
+            <!--Breed home page text -->
+             <div  class="breeds_home">
+                 <p class="breed_text">Thinking about getting a cat but not sure which breed is right for you? We can help.<br><br>Select a breed and get details.</p>
+                <img class="oggy_img" src="../images/oggy.webp" alt="">
+             </div>
+
+             
+
+             <!--Breed details section--> 
+             <section class="breed_details">
+                 
+                <!--Breed image-->
+                  <img id="breed_imgs"></img>
+
+                  <div id="breed_content">
+                      <p id="desc"></p>
+
+                      <div id="features">
+                           <p class="feat">Name of Breed</p>
+                           <p class="feat_val"></p>
+                           <p class="feat">Origin</p>
+                           <p class="feat_val"></p>
+                           <p class="feat">Life-span</p>
+                           <p class="feat_val"></p>
+                           <p class="feat">Affection Level
+                           <p class="feat_val prog_bar"></p>
+                           <p class="feat">Adaptability</p>
+                           <p class="feat_val prog_bar"></p>
+                           <p class="feat">Child Friendly</p>
+                           <p class="feat_val prog_bar"></p>
+                           <p class="feat">Energy-level</p>
+                           <p class="feat_val prog_bar"></p>
+                           <p class="feat">Health Issues</p>
+                           <p class="feat_val prog_bar"></p>
+                           <p class="feat">Intelligence</p>
+                           <p class="feat_val prog_bar"></p>
+                           <p class="feat">Stranger Friendly</p>
+                            <p class="feat_val prog_bar"></p>
+               
+                        </div>
+                    </div> 
+           </section>
+
+
+           <!--script-->
+        <script src=../script/script4.js></script>
+
+</body>
+</html>
